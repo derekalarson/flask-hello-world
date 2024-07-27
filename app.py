@@ -61,7 +61,7 @@ def selecting():
             response_string += "<td>" + str(info) + "</td>"
         response_string += "</tr>"
     response_string+="</table>"
-    return records
+    return response_string
 
 @app.route('/db_drop')
 def db_drop():
